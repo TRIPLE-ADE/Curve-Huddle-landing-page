@@ -141,6 +141,8 @@ footer Section Styles
 .footer-section{
     padding: 100px 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 85%;
     margin: auto;
 }
@@ -185,6 +187,7 @@ form button, form input{
 }
 form input{
     width: 70%;
+    padding: 0 10px;
 }
 form button{
     width: 30%;
@@ -198,4 +201,60 @@ form button{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}  
+
+
+@media (max-width:900px) {
+    /*
+    =============================================
+    Global Styles @900px
+    =============================================
+    */
+    html{
+        font-size: 15px;
+    }
+    .container{
+        width: 90%;
+    }
+    .root1, .footer-section{
+        width: 90%;
+    }
+    /* 
+    ==============================================
+    footer Section Styles
+    ==============================================
+    */
+    .footer-content p:first-child, .footer-contact p:nth-child(2){
+        padding: 20px 0;
+        width: 90%;
+    }
+
+
+}
+@media (max-width:800px) {
+    /*
+    =============================================
+    Global Styles @900px
+    =============================================
+    */
+    html{
+        font-size: 15px;
+    }
+    .container{
+        width: 90%;
+    }
+    .root1, .footer-section{
+        width: 90%;
+    }
+    .container, .info, .footer-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .container > div, .footer-section > div{
+        width: 100%;
+    }
+
+
 }
