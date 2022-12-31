@@ -1,0 +1,201 @@
+/*
+=============================================
+Global Styles
+=============================================
+*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(207, 100%, 98%);
+    --heading: 'Poppins', sans-serif;
+    --font: 'Open Sans', sans-serif;
+}
+body{
+    font-family:var(--font);
+}
+h1, h2{
+    font-family: 'Poppins', sans-serif ;
+
+}
+h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+h2{
+    margin-bottom:20px;
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.container > div{
+    width: 45%;
+}
+.container div img{
+    width: 100%;
+}
+button{
+    background-color: var(--Pink);
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid hsl(321, 100%, 78%);
+    color: var(--VeryPaleBlue);
+    width: 240px;
+    line-height: 3.2;
+    font-size: 15px;
+}
+/*
+==============================================
+header Section Styles
+==============================================
+*/
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+header button{
+    border-radius: 50px;
+    border: 1px solid hsl(321, 100%, 78%);
+    line-height: 2;
+    width: 100px;
+    background-color: transparent;
+    color: var(--Pink);
+    font-size: 14px;
+}
+header img{
+    width: 80%;
+}
+
+/*
+==============================================
+main Section Styles
+==============================================
+*/
+
+/* root1 section styles start*/
+.root1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.root1 > div > img{
+    width: 100%;
+    padding: 70px 0 50px;
+}
+.root1 > div > p{
+    max-width: 480px;
+    margin: auto;
+    display: block;
+    padding: 10px 0  20px;
+}
+.info{
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+.info-numbers{
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+/* root2 section styles */
+.root-sub{
+    background-color: var(--VeryPaleBlue);
+}
+.bg-top-1{
+    margin-bottom: -5px;
+}
+svg{
+    width: 100%;
+}
+/* root5 section styles */
+.root5{
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+/*
+==============================================
+footer Section Styles
+==============================================
+*/
+.footer-bg-color{
+    background-color: var(--VeryDarkCyan);
+    color: var(--VeryPaleBlue);
+}
+.footer-section{
+    padding: 100px 0;
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.footer-section > div{
+    width: 50%;
+}
+.footer-content p:first-child, .footer-contact p:nth-child(2){
+    padding: 20px 0;
+    width: 360px;
+}
+.phone, .email{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.social-links{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.social-links i{
+    color:var(--VeryPaleBlue);
+    font-size: 1.7rem;
+}
+.footer-contact  p:first-child{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+form{
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
+}
+form button, form input{
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    
+}
+form input{
+    width: 70%;
+}
+form button{
+    width: 30%;
+    min-width: 120px;
+    font-size: 1rem;
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
