@@ -216,9 +216,6 @@ form button{
     .container{
         width: 90%;
     }
-    .root1, .footer-section{
-        width: 90%;
-    }
     /* 
     ==============================================
     footer Section Styles
@@ -244,17 +241,61 @@ form button{
         width: 90%;
     }
     .root1, .footer-section{
-        width: 90%;
+        width: 85%;
     }
-    .container, .info, .footer-section{
-        flex-direction: column;
+    .footer-section{
+        flex-direction: column-reverse;
+    }
+    .container, .info{
+        flex-direction: column-reverse;
         text-align: center;
         gap: 40px;
     }
-
     .container > div, .footer-section > div{
         width: 100%;
+        padding: 40px 0;
     }
+    /*
+    =============================================
+    Header Styles @900px
+    =============================================
+    */
+    header img{
+        width: 50%;
+    }
+    /*
+    =============================================
+    main Styles @900px
+    =============================================
+    */
 
-
+    /* root1 section style */
+    h1{
+        font-size: 1.7rem;
+    }
+    .root1 button{
+        width: 70%;
+        max-width: 300px;
+    }
+    /* root3 section style */
+    .root3 .container{
+        flex-direction: column;
+    }
+    /*
+    =============================================
+    footer Styles @900px
+    =============================================
+    */
+    footer form{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    form input{
+        width: 100%;
+        padding: 0 10px;
+    }
+    form button{
+        max-width: 300px;
+        width: 50%;
+    }
 }
