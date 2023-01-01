@@ -10,14 +10,12 @@ This is a solution to the [Huddle landing page with curved sections challenge on
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
+Huddle landing page with curved sections is a landing page with curve at the top and bottom of every section, it is responsive across all screen size and the buttons has over state for interactive elements
 ### The challenge
 
 Users should be able to:
@@ -27,21 +25,27 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/desktop.png)
+
+![](./design/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/TRIPLE-ADE/Curve-Huddle-landing-page/)
+- Live Site URL: [Add live site URL here](https://triple-ade.github.io/Curve-Huddle-landing-page/)
 
 ## My process
+- Understanding the interface
+- structure my web page
+- style the page
+- make the page responsive
+- and added interactive element
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
@@ -72,7 +76,7 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://triple-ade.github.io/Curve-Huddle-landing-page/)
 - Frontend Mentor - [@TRIPLE-ADE](https://www.frontendmentor.io/profile/TRIPLE-ADE)
 - Twitter - [@Triple123A](https://www.twitter.com/Triple123A)
 
